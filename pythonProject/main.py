@@ -23,7 +23,6 @@ class Student:
 
 
     def average_value(self, name, course, grades):
-
         if isinstance() and course in self.finished_courses and course in self.courses_in_progress:
             avg = sum(self.grades.values()) / len(self.grades.values())
             self.avg += avg
