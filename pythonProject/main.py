@@ -8,7 +8,7 @@ class Student:
         self.finished_courses = []
         self.courses_in_progress = []
         self.grades = {}
-        #self.average = 0
+        self.average = 0
 
 
     def grades(self, lecturer, course, grade):
