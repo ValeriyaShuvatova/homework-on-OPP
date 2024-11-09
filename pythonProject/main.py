@@ -69,16 +69,7 @@ class Reviewer(Mentor):
         return f'Имя: {self.name}\nФамилия: {self.surname}'
 
 
-def __average__(self):
-    total_subject_grades = 0
-    count_subject_grades = 0
-    for subject, value in self.grades.items():
-        total_subject_grades += sum(value)
-        count_subject_grades += len(value)
-    return total_subject_grades / count_subject_grades
 
-best_student = Student('Ruoy', 'Eman', 'your_gender')
-best_student.courses_in_progress += ['Python', 'Git']
 
 
 lecturer=Lecturer('Some', 'Buddy', 'Python')
